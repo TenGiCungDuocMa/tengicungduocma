@@ -1,11 +1,11 @@
-/* Google Fonts - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* Google Fonts - Poppins
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;;
 }
 .container{
     height: 100vh;
@@ -15,7 +15,7 @@
     justify-content: center;
     /* background-color: #97ecac; */
     column-gap: 30px;
-    background-image: url(https://thucphamvship.com/wp-content/uploads/2020/05/5-cach-chon-rau-cu-qua-tuoi-ngon-2.jpg);
+    background-color:#d4d4d4;
     /* background-image: url(https://vinmec-prod.s3.amazonaws.com/images/20190425_063710_470758_rau_xanh.max-1800x1800.jpg); */
 }
 .form{

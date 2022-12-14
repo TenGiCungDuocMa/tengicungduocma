@@ -102,7 +102,7 @@
             element.classList.replace(element.classList[0], error);
             for (const child of element.parentElement.children) {
                if (child.className === 'message')  {
-                child.innerHTML = 'The length of password must be greater than 8'
+                child.innerHTML = 'Mật khẩu phải có độ dài trên 8'
                }
                if(child.className.includes('eye-icon')) {
                 child.style.transform = 'translateY(-80%)'
@@ -137,7 +137,7 @@
             
             for (const child of element.parentElement.children) {
                if (child.className === 'message')  {
-                child.innerHTML = 'This is not a email'
+                child.innerHTML = 'Email không hợp lệ'
                }
                if(child.className.includes('eye-icon')) {
                 child.style.transform = 'translateY(-80%)'
@@ -152,7 +152,7 @@
             element.classList.replace(element.classList[0], error);
             for (const child of element.parentElement.children) {
                if (child.className === 'message')  {
-                child.innerHTML = 'The password is not correct'
+                child.innerHTML = 'Mật khẩu không khớp'
                }
                if(child.className.includes('eye-icon')) {
                 child.style.transform = 'translateY(-80%)'
@@ -282,7 +282,7 @@
         }
         if (submitSuccess) {
             // Đoạn này dùng để call API để lưu dữ diệu hoặc làm gì khác nếu các dữ liệu trong form là hợp lệ
-           alert('Submit successfully');
+           alert('Tài khoản đã được đăng kí');
         } else {
             // Đoạn này xử lí ngoại lệ
         }    
