@@ -79,7 +79,7 @@
             element.classList.replace(element.classList[0], error);
             for (const child of element.parentElement.children) {
                if (child.className === 'message')  {
-                child.innerHTML = 'Please enter this field'
+                child.innerHTML = 'Vui lòng điền thông tin'
                }
                if(child.className.includes('eye-icon')) {
                 child.style.transform = 'translateY(-80%)'

@@ -61,7 +61,7 @@
             element.classList.replace(element.classList[0], error);
             for (const child of element.parentElement.children) {
                if (child.className === 'message')  {
-                child.innerHTML = 'Please enter this field'
+                child.innerHTML = 'Vui lòng điền thông tin'
                }
                if(child.className.includes('eye-icon')) {
                 child.style.transform = 'translateY(-80%)'
@@ -119,7 +119,7 @@
             
             for (const child of element.parentElement.children) {
                if (child.className === 'message')  {
-                child.innerHTML = 'Email không hợp hệ'
+                child.innerHTML = 'Email không đúng hoặc chưa đăng kí'
                }
                if(child.className.includes('eye-icon')) {
                 child.style.transform = 'translateY(-80%)'
@@ -225,7 +225,7 @@
         }
         if (submitSuccess) {
             // Đoạn này dùng để call API để lưu dữ diệu hoặc làm gì khác nếu các dữ liệu trong form là hợp lệ
-            alert('Tài khoản đã được đăng kí');
+            alert('Đăng nhập thành công!');
         } else {
             // Đoạn này xử lí ngoại lệ
         }    

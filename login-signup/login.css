@@ -85,7 +85,7 @@ form{
 }
 .field button{
     color: #fff;
-    background-color: #1fe966;
+    background-color: #6a961f;
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -103,7 +103,7 @@ form{
     color: #232836;
 }
 .form a{
-    color: #1fe966;
+    color: #6a961f;
     text-decoration: none;
 }
 .form-content a:hover{
@@ -117,7 +117,7 @@ form{
     background-color: #d4d4d4;
 }
 .line::before{
-    content: 'Or';
+    content: 'Hoặc';
     position: absolute;
     top: 50%;
     left: 50%;
